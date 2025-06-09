@@ -1,0 +1,47 @@
+.hero-img{
+    position: relative;
+    height: 600px;
+    background-size: cover;
+    background-image: url('./images/image-1.jpg');
+    
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.hero-img h6{
+    background-color: yellow;
+}
+
+
+.hero-box h2{
+    position: relative;
+    left: 170px;
+    color: rgb(2, 163, 2);
+    filter:drop-shadow(1px 1px 1px black) ;
+}
+.grid-1 h6{
+    text-align: center;
+}
+.veg{
+    background-image: url('https://freshcart77.myshopify.com/cdn/shop/files/grocery-banner.png?v=1695970709&width=424');
+    background-size: cover;
+    height: 200px;
+}
+.non-veg{
+    background-image: url('https://freshcart77.myshopify.com/cdn/shop/files/grocery-banner-2.jpg?v=1695970709&width=424');
+     background-size: cover;
+    height: 200px;
+}
+.card:hover img{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.card img{
+    transition-duration: 1s;
+
+}
+.card:hover{
+    border: 1px solid green;
+}
